@@ -21,4 +21,25 @@ body {
     height: 56vmin;
     object-fit: cover;
     object-position: 100% center;
+    border-radius: 8px;
+}
+
+.text-container{
+    display: inline-flex;
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    height: 420px;
+}
+
+.card > .text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgba(70, 69, 69, 0.592);
 }
